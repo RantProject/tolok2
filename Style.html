@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAK RABIES</title>
+    <style>
+        /* CSS Global */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            background: #f4f4f4;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .blog-posts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .post-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .post-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .nav a {
+                font-size: 0.9rem;
+                margin: 0 10px;
+            }
+
+            .blog-posts {
+                padding: 1rem;
+            }
+
+            .post-card {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.2rem;
+            }
+
+            .hero h2 {
+                font-size: 1.2rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .nav a {
+                font-size: 0.8rem;
+                margin: 0 8px;
+            }
+
+            .blog-posts {
+                grid-template-columns: 1fr; /* 1 kolom untuk ponsel */
+                padding: 0.5rem;
+            }
+
+            .post-card {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>ANAK RABIES</h1>
+        <nav class="nav">
+            <a href="#home">Beranda</a>
+            <a href="#articles">Artikel</a>
+            <a href="#about">Tentang</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Selalu Berhati-Hati!</h2>
+        <p>Berbagi cerita, Sumbangan, dan Antisipasi.</p>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <div class="blog-posts">
+        <article class="post-card">
+            <img src="WhatsApp Image 2025-02-23 at 12.12.15.jpeg" alt="Post 1">
+            <h3>Judul Artikel Pertama</h3>
+            <p>Anak ini ditemukan Gila pada saat Makan</p>
+            <a href="#">Baca Selengkapnya</a>
+        </article>
+        <!-- Tambahkan lebih banyak post-card di sini -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Blog Pribadi. Dibuat dengan ❤️</p>
+    </footer>
+</body>
+</html>
